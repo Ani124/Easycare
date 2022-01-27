@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "69510826764",
+    "project_id": "easycare3-9e9de",
+    "storage_bucket": "easycare3-9e9de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:69510826764:android:d8af2fa4063c23ecb25729",
+        "android_client_info": {
+          "package_name": "com.example.easycare"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "69510826764-1c6d2ef053ijroar81k82t90ujq43k83.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsfUp69S6fpf1QwOij6p2cyw4tS0XSAO0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "69510826764-1c6d2ef053ijroar81k82t90ujq43k83.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

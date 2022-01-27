@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_9"
+    tools:context=".ShopDetail">
+
+    <ImageButton
+        android:id="@+id/image_btn_arrow_shop_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_arrow_back_ios_24"
+        android:background="@null"
+        android:foreground="?attr/selectableItemBackground"
+        />
+    <ImageButton
+        android:id="@+id/image_shopping_shop_detail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="16dp"
+        android:src="@drawable/ic_baseline_add_shopping_cart_24"
+        android:background="@null"
+        android:foreground="?attr/selectableItemBackground"/>
+
+    <ScrollView
+        android:id="@+id/scroll_view_shop_detail"
+        android:layout_width="match_parent"
+        android:layout_height="675dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/image_shop_detail"
+                android:layout_width="128dp"
+                android:layout_height="128dp"
+                android:layout_gravity="center"
+                android:layout_margin="16dp"
+                android:src="@drawable/med4" />
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_shop_detail"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                app:cardBackgroundColor="@color/white">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                    <TextView
+                        android:id="@+id/tv_name_product_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="16dp"
+                        android:text="@string/multi_vitamins"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_pills_product_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_name_product_shop_detail"
+                        android:layout_marginStart="16dp"
+                        android:text="@string/pills_90"
+                        android:textColor="@color/black" />
+
+                    <RatingBar
+                        android:id="@+id/rat_shop_detail"
+                        style="@style/Widget.AppCompat.RatingBar.Indicator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_pills_product_shop_detail"
+                        android:layout_marginStart="16dp"
+                        android:isIndicator="false" />
+
+                    <ImageButton
+                        android:id="@+id/image_add_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="16dp"
+                        android:background="@null"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:src="@drawable/ic_baseline_add_circle_outline_48" />
+
+                    <TextView
+                        android:id="@+id/tv_can_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/image_add_shop_detail"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="16dp"
+                        android:text="1"
+                        android:textColor="@color/black"
+                        android:textSize="16dp" />
+
+                    <ImageButton
+                        android:id="@+id/image_remove_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_can_shop_detail"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginStart="16dp"
+                        android:layout_marginTop="17dp"
+                        android:layout_marginEnd="16dp"
+                        android:layout_marginBottom="16dp"
+                        android:background="@null"
+                        android:foreground="?attr/selectableItemBackground"
+                        android:src="@drawable/ic_baseline_remove_circle_outline_48" />
+
+                    <TextView
+                        android:id="@+id/tv_product_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/rat_shop_detail"
+                        android:layout_margin="16dp"
+                        android:text="@string/product_detail"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_info_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_product_detail"
+                        android:layout_marginTop="58dp"
+                        android:layout_marginBottom="16dp"
+                        android:text="@string/info_detail"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_final_price_product_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_info_shop_detail"
+                        android:layout_margin="16dp"
+                        android:text="@string/final_price"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:id="@+id/tv_price_product_shop_detail"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/tv_info_shop_detail"
+                        android:layout_margin="16dp"
+                        android:layout_toEndOf="@+id/tv_final_price_product_shop_detail"
+                        android:text="@string/price_287" />
+
+
+                </RelativeLayout>
+
+
+            </com.google.android.material.card.MaterialCardView>
+
+            <Button
+                android:id="@+id/btn_add_to_basket"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="@string/add_to_basket"
+                app:icon="@drawable/ic_baseline_add_shopping_cart_24_white" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

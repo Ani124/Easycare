@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="@color/teal_700"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    tools:context=".Appointment">
+
+    <TextView
+
+        android:layout_width="wrap_content"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:fontFamily="sans-serif-black"
+        android:text="Make an Appointment "
+        android:textAlignment="center"
+
+        android:textColor="#03A9F4"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+
+        android:hint="Enter Name" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+
+        android:hint="Enter Age" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+
+        android:hint="Enter Mobile Number" />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+
+        android:hint="Enter Mail ID " />
+
+    <LinearLayout
+        android:layout_width="379dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center_vertical"
+        >
+
+        <Button
+            android:id="@+id/docButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select Doctor"
+            android:onClick="buttonClicked1"
+
+            />
+
+        <TextView
+            android:id="@+id/doc_input"
+            android:layout_width="227dp"
+            android:layout_height="55dp"
+            android:inputType="text"
+            android:text="Doctor"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/setDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Choose Date"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="78dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/setTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Choose Time"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+    />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Confrim Appoinment"
+        android:onClick="buttonClicked2"
+
+        />
+
+
+
+</LinearLayout>

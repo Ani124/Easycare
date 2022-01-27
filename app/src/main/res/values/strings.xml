@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">EasyCare</string>
+    <string name="search_for_drugs">Search for drugs....etc</string>
+    <string name="online_medicine">Online Pharmacy</string>
+    <string name="shop_by_category">Shop by Category</string>
+    <string name="popular_products">Popular Products</string>
+    <string name="medicines">Medicines</string>
+    <string name="multi_vitamins">Multi Vitamins</string>
+    <string name="pills_90">100 Pills</string>
+    <string name="final_price">Tk. 225</string>
+    <string name="price_287">Tk. 250</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="info_detail">This medication is a multivitamin product used to treat or prevent vitamin deficiency due to poor diet, certain illnesses, or during pregnancy. Vitamins are important building blocks of the body and help keep you in good health.
+    </string>
+    <string name="add_to_basket">ADD TO BASKET</string>
+</resources>
